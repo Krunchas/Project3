@@ -1,0 +1,85 @@
+main{
+  background-image: url('../images/background.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+textarea{
+  resize: none;
+  width: 300px;
+  height: 200px;
+  border: 2px solid gray;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+.container{
+  width: 100%;
+  padding: 20px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.text-input{
+  width: calc(100vw - 40px);
+  height: 80dvb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.input:focus{
+  outline: none;
+}
+
+p{
+  font-size: 2rem;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 694px) {
+  .text-input{
+    flex-direction: column;
+    gap: 30px;
+  }
+  textarea{
+    width: 275px;
+    height: 175px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  textarea{
+    width: 250px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 1rem;
+  }
+  textarea{
+    width: 225px;
+    height: 125px;
+  }
+}
