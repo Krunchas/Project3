@@ -41,12 +41,6 @@ h1{
   outline: none;
 }
 
-p{
-  font-size: 2rem;
-  margin-left: 90px;
-  margin-bottom: 20px;
-}
-
 @media only screen and (max-width: 694px) {
   .text-input{
     flex-direction: column;
@@ -55,6 +49,9 @@ p{
   textarea{
     width: 275px;
     height: 175px;
+  }
+  main{
+    overflow: hidden;
   }
 }
 

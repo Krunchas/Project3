@@ -12,14 +12,8 @@ export default function Home() {
         <div className="container">
           <h1>Japanese Krunchas Translator</h1>
           <div className="text-input">
-            <div className="english">
-              <p className="english-tag">English</p>
-              <textarea className="input" placeholder="Enter text"></textarea>
-            </div>
-            <div className="japanese">
-              <p className="japanese-tag">Japanese</p>
-              <textarea className="output" placeholder="Translation..." readOnly disabled></textarea>
-            </div>
+            <textarea className="input" placeholder="English..."></textarea>
+            <textarea className="output" placeholder="Japanese..." readOnly disabled></textarea>
           </div>
         </div>
       </main>
